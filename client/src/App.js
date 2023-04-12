@@ -1,10 +1,14 @@
 import logo from './logo.svg';
+import ImageViewer from './components/ImageViewer';
+import NavBar from './components/NavBar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <NavBar />
+        <ImageViewer />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. Creating folder structure.
